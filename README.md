@@ -6,4 +6,5 @@ This modification is based on the [pull request](https://github.com/SFML/SFML/pu
 
 The code has been slightly altered in WindowImplWin32.cpp: WM_PAIN changed to WM_TIMER.
 This alteration allows the window to receive callbacks even when the window size doesn't change (e.g. when the cursor is grabbed but not moved).
+
 Download [SFML 2.6.0](https://github.com/SFML/SFML/releases/tag/2.6.0), merge this repo into it, compile using CMake and VS. Example use case is in the main.cpp
